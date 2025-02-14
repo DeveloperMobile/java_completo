@@ -22,10 +22,10 @@
 
 ### * Tópicos especiais em Java (data-hora) - [Material de Apoio](https://github.com/DeveloperMobile/java_completo/tree/main/Material%20de%20Apoio/11%20-%20Topicos%20especiais%20(data-hora))![](/home/tiago/Imagens/livros.png) - [Projetos](https://github.com/DeveloperMobile/java_completo/tree/main/Projetos/11%20-%20Topicos%20especiais)
 
-### * Enumerações, coposição - [Material de Apoio](https://github.com/DeveloperMobile/java_completo/tree/main/Material%20de%20Apoio/12%20-%20Enumeracoes%20composicao)![](/home/tiago/Imagens/livros.png) - [Projetos](https://github.com/DeveloperMobile/java_completo/tree/main/Projetos/12%20-%20Enumeracoes/enumeracoes)
+### * Enumerações, coposição - [Material de Apoio](https://github.com/DeveloperMobile/java_completo/tree/main/Material%20de%20Apoio/12%20-%20Enumeracoes%20composicao)![](/home/tiago/Imagens/livros.png) - [Projetos](https://github.com/DeveloperMobile/java_completo/tree/main/Projetos/12%20-%20Enumeracoes)
 
-### * Herança e polimorfismo - [Material de Apoio](https://github.com/DeveloperMobile/java_completo/tree/main/Material%20de%20Apoio/13%20-%20Heranca%20polimorfismo)![](/home/tiago/Imagens/livros.png) - [Projetos](https://github.com/DeveloperMobile/java_completo/tree/main/Projetos/13%20-%20%20Heranca/heranca)
+### * Herança e polimorfismo - [Material de Apoio](https://github.com/DeveloperMobile/java_completo/tree/main/Material%20de%20Apoio/13%20-%20Heranca%20polimorfismo)![](/home/tiago/Imagens/livros.png) - [Projetos](https://github.com/DeveloperMobile/java_completo/tree/main/Projetos/13%20-%20%20Heranca)
 
-### * Tratamento de exceções - [Material de Apoio](https://github.com/DeveloperMobile/java_completo/tree/main/Material%20de%20Apoio/14%20-%20Tratamento%20de%20excecoes)![](/home/tiago/Imagens/livros.png) - [Projetos](https://github.com/DeveloperMobile/java_completo/tree/main/Projetos/14%20-%20Excecoes/excecoes)
+### * Tratamento de exceções - [Material de Apoio](https://github.com/DeveloperMobile/java_completo/tree/main/Material%20de%20Apoio/14%20-%20Tratamento%20de%20excecoes)![](/home/tiago/Imagens/livros.png) - [Projetos](https://github.com/DeveloperMobile/java_completo/tree/main/Projetos/14%20-%20Excecoes)
 
-### * Trabalhando com arquivos - [Material de Apoio](https://github.com/DeveloperMobile/java_completo/tree/main/Material%20de%20Apoio/15%20-%20Trabalhando%20com%20arquivos)![](/home/tiago/Imagens/livros.png) - [Projetos](https://github.com/DeveloperMobile/java_completo/tree/main/Projetos/15%20-%20Arquivos/arquivos)
+### * Trabalhando com arquivos - [Material de Apoio](https://github.com/DeveloperMobile/java_completo/tree/main/Material%20de%20Apoio/15%20-%20Trabalhando%20com%20arquivos)![](/home/tiago/Imagens/livros.png) - [Projetos](https://github.com/DeveloperMobile/java_completo/tree/main/Projetos/15%20-%20Arquivos)
