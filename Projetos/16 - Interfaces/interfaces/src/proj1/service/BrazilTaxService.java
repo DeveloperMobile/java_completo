@@ -1,4 +1,4 @@
-package service;
+package proj1.service;
 
 public class BrazilTaxService implements TaxService {
 

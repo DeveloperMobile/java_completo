@@ -1,4 +1,4 @@
-package entities;
+package proj1.entities;
 
 public class Invoice {
     private Double basicPayment;

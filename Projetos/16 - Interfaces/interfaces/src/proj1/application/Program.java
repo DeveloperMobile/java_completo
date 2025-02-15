@@ -1,9 +1,9 @@
-package application;
+package proj1.application;
 
-import entities.CarRental;
-import entities.Vehicle;
-import service.BrazilTaxService;
-import service.RentalService;
+import proj1.entities.CarRental;
+import proj1.entities.Vehicle;
+import proj1.service.BrazilTaxService;
+import proj1.service.RentalService;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

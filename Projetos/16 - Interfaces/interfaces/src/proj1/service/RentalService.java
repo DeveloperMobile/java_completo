@@ -1,7 +1,7 @@
-package service;
+package proj1.service;
 
-import entities.CarRental;
-import entities.Invoice;
+import proj1.entities.CarRental;
+import proj1.entities.Invoice;
 
 import java.time.Duration;
 
