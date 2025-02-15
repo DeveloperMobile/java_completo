@@ -1,6 +1,7 @@
 package exercice.application;
 
 import exercice.domain.entities.Contract;
+import exercice.domain.entities.Installment;
 import exercice.domain.service.ContractService;
 import exercice.domain.service.PaypalService;
 
@@ -36,8 +37,8 @@ public class Program  {
 
         System.out.println("Parcelas: ");
 
-        for (int i = 0; i < contract.getInstallments().size(); i++) {
-            System.out.println(contract.getInstallments().get(i));
+        for (Installment installment : contract.getInstallments()) {
+            System.out.println(installment);
         }
 
         sc.close();
