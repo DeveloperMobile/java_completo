@@ -1,11 +1,12 @@
 package proj2.domain.entities;
 
 import proj2.domain.entities.enums.Color;
+import proj2.domain.services.Shape;
 
-public abstract class Shape {
+public abstract class AbstractShape implements Shape {
     private Color color;
 
-    public Shape(Color color) {
+    public AbstractShape(Color color) {
         this.color = color;
     }
 

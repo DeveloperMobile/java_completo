@@ -2,7 +2,7 @@ package proj2.domain.entities;
 
 import proj2.domain.entities.enums.Color;
 
-public class Rectangle extends Shape {
+public class Rectangle extends AbstractShape {
     private Double width;
     private Double height;
 
