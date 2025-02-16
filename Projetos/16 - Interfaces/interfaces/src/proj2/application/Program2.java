@@ -5,7 +5,7 @@ import proj2.domain.entities.Rectangle;
 import proj2.domain.entities.AbstractShape;
 import proj2.domain.entities.enums.Color;
 
-public class Program3 {
+public class Program2 {
     public static void main(String[] args) {
         AbstractShape s1 = new Circle(Color.BLACK, 2.0);
         AbstractShape s2 = new Rectangle(Color.WHITE, 3.0, 4.0);

@@ -4,7 +4,7 @@ import proj3.devices.ComboDevice;
 import proj3.devices.ConcretePrinter;
 import proj3.devices.ConcreteScanner;
 
-public class Program4 {
+public class Program3 {
     public static void main(String[] args) {
         ConcretePrinter p = new ConcretePrinter("1080");
         p.processDoc("My Letter");
