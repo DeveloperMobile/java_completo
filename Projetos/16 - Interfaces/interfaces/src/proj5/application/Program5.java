@@ -1,6 +1,7 @@
 package proj5.application;
 
 import proj5.services.BrazilInterestService;
+import proj5.services.InterestService;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -15,7 +16,7 @@ public class Program5 {
         System.out.print("Months: ");
         int months = sc.nextInt();
 
-        BrazilInterestService is = new BrazilInterestService(2.0);
+        InterestService is = new BrazilInterestService(2.0);
         double payment = is.payment(amount, months);
 
         System.out.println("Payment after " + months + " months: ");

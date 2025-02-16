@@ -1,11 +1,14 @@
 package proj5.services;
 
-public class BrazilInterestService implements InterestService {
+import java.security.InvalidParameterException;
+
+public class UsaInterestService implements InterestService {
     private Double interstRate;
 
-    public BrazilInterestService(Double interstRate) {
+    public UsaInterestService(Double interstRate) {
         this.interstRate = interstRate;
     }
+
 
     @Override
     public Double getInterestRate() {
