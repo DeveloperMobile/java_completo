@@ -39,3 +39,5 @@
 ### * Acesso a bando de dados com JDBC - [Material de Apoio](https://github.com/DeveloperMobile/java_completo/tree/main/Material%20de%20Apoio/19%20-%20Acesso%20a%20banco%20de%20dados%20com%20JDBC)![](/home/tiago/Imagens/livros.png) - [Projetos](https://github.com/DeveloperMobile/java_completo/tree/main/Projetos/19%20-%20Aesso%20a%20bando%20de%20dados%20com%20JDBC)
 
 ### * Nivelamento sobre Git e Github - [Material de Apoio](https://github.com/DeveloperMobile/java_completo/tree/main/Material%20de%20Apoio/20%20-%20Git%20e%20Github)![](/home/tiago/Imagens/livros.png) - [Projetos](https://github.com/DeveloperMobile/aulagithub)
+
+### * Mapeamento objeto relacional com jpa|hibernate - [Material de Apoio](https://github.com/DeveloperMobile/java_completo/tree/main/Material%20de%20Apoio/21%20-%20Mapeamento%20objeto%20relacional%20com%20JPA%7CHibernate)![](https://github.com/DeveloperMobile/java_completo/tree/main/Projetos/21%20-%20Mapeamento%20objeto%20relacional%20com%20jpa%7Chibernate)
