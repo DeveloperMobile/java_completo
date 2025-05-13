@@ -2,8 +2,12 @@ package com.developermobile.course.services;
 
 import com.developermobile.course.entities.User;
 import com.developermobile.course.repositories.UserRepository;
+import com.developermobile.course.services.exception.DatabaseException;
 import com.developermobile.course.services.exception.ResourceNotFoundException;
+import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.DataIntegrityViolationException;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -27,8 +31,23 @@ public class UserService {
         return repository.save(user);
     }
 
+    /***
+     * Apartir da versao 3 ou superior do springboot a excecao EmptyResultDataAccessException
+     * Ja e tratada por padrao.
+     * Para gerar uma excecao personalizada e necessario implementar da forma abaixo.
+     */
     public void delete(Long id) {
-        repository.deleteById(id);
+       try {
+           if (repository.existsById(id)) {
+               repository.deleteById(id);
+           } else {
+               throw new ResourceNotFoundException(id);
+           }
+       } catch (EmptyResultDataAccessException e) {
+           throw new ResourceNotFoundException(id);
+       } catch (DataIntegrityViolationException e) {
+          throw new DatabaseException(e.getMessage());
+       }
     }
 
     public User update(Long id, User user) {

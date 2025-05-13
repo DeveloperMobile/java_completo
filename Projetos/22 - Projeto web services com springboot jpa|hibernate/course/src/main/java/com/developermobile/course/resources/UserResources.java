@@ -11,7 +11,7 @@ import java.net.URI;
 import java.util.List;
 
 @RestController
-@RequestMapping("/users")
+@RequestMapping(value = "/users")
 public class UserResources {
     @Autowired
     private UserService service;
@@ -22,7 +22,7 @@ public class UserResources {
         return ResponseEntity.ok().body(userList);
     }
 
-    @GetMapping("/{id}")
+    @GetMapping(value = "/{id}")
     public ResponseEntity<User> findById(@PathVariable("id") Long id) {
         return ResponseEntity.ok().body(service.findById(id));
     }
@@ -33,7 +33,7 @@ public class UserResources {
         return ResponseEntity.created(getUri(user)).body(user);
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping(value = "/{id}")
     public ResponseEntity<Void> delete(@PathVariable("id") Long id) {
         service.delete(id);
         return ResponseEntity.noContent().build();
