@@ -1,4 +1,4 @@
-package com.developermobile.workshopmongo;
+package com.developermobile.workshopmongo.repository;
 
 import com.developermobile.workshopmongo.domain.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
