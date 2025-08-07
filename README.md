@@ -47,3 +47,5 @@
 ### * Sistema de Jogo de Xadrez - [Material de Apoio](https://github.com/DeveloperMobile/java_completo/tree/main/Material%20de%20Apoio/23%20-%20Sistema%20de%20Jogo%20de%20Xadrez)![](/home/tiago/Imagens/livros.png) - [Projetos](https://github.com/DeveloperMobile/java_completo/tree/main/Projetos/23%20-%20Sistema%20de%20Jogo%20de%20Xadrez/chess-system)
 
 ### * Projeto Spring Boot e banco MongoDB - [Material de Apoio](https://github.com/DeveloperMobile/java_completo/tree/main/Material%20de%20Apoio/24%20-%20Projeto%20Spring%20Boot%20e%20banco%20MongoDB)![](/home/tiago/Imagens/livros.png) - [Projetos](https://github.com/DeveloperMobile/java_completo/tree/main/Projetos/24%20-%20Projeto%20Spring%20Boot%20e%20banco%20MongoDB/workshopmongo)
+
+### * Interface Grafica com JavaFx- [Material de Apoio](https://github.com/DeveloperMobile/java_completo/tree/main/Material%20de%20Apoio/25%20-%20Interface%20Grafica%20com%20JavaFx)![](/home/tiago/Imagens/livros.png) - [Projetos](https://github.com/DeveloperMobile/java_completo/tree/main/Projetos/25%20-%20Interface%20Grafica%20com%20JavaFx/javafx1)
