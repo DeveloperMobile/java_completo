@@ -3,12 +3,13 @@ package application;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.ScrollPane;
 
 
 public class Main extends Application {
+	private static Scene mainScene;
+	
 	@Override
 	public void start(Stage primaryStage) {
 		try {
@@ -18,8 +19,8 @@ public class Main extends Application {
 			scrollPane.setFitToWidth(true);
 			scrollPane.setFitToHeight(true);
 			
-			Scene scene = new Scene(scrollPane);
-			primaryStage.setScene(scene);
+			mainScene = new Scene(scrollPane);
+			primaryStage.setScene(mainScene);
 			primaryStage.setTitle("Sample JavaFX application");
 			primaryStage.show();
 		} catch(Exception e) {
@@ -29,5 +30,9 @@ public class Main extends Application {
 	
 	public static void main(String[] args) {
 		launch(args);
+	}
+	
+	public static Scene getMainScene() {
+		return mainScene;
 	}
 }
