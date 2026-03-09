@@ -6,3 +6,6 @@ build/
 nbbuild/
 dist/
 nbdist/
+
+# eclipse
+.settings
